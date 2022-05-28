@@ -99,7 +99,7 @@ const Home: NextPage = () => {
           </div>
         )}
         {!filteredEmojis.length && (
-          <p className="text-center text-xl text-gray-500">{`Sorry, we could not find an emoji of the name: "${currentSearch}"`}</p>
+          <p className="text-center text-xl text-gray-500">{`Sorry, we could not find an emoji with the name of: "${currentSearch}"`}</p>
         )}
         <div className="animate__animated animate__fadeInUp">
           <List emojis={filteredEmojis} />
